@@ -1,0 +1,105 @@
+.logo{
+    color: #F5EFE7;
+    text-align: center;
+    font-size: 2.5rem;
+}
+body{
+    background-color: #3E5879;
+}
+.bio{
+    color: white;
+    text-align: right;
+}
+.first-content{
+    background-color: #213555;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 3px solid #213555;
+    
+}
+.first-photo{
+    float: left;
+    width: 30%;
+}
+.second-photo{
+    float: left;
+    width: 30%;
+}
+.third-photo{
+    float: right;
+    width: 30%;
+}
+.last-content{
+    clear: both;
+    height:6rem;
+  background-color: #213555;
+  
+    
+}
+.my-photos>h3{
+    text-align: center;
+    
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    
+    list-style-type: none;
+    color: blue;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: #F5EFE7;
+}
+p{
+   
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color:#F5EFE7
+}
+.heading{
+    color: #F5EFE7;
+}
+
+
+@media(max-width:680px){
+    .logo{
+        
+        font-size: 1rem;
+    }
+    .bio{
+        font-size: 1rem;
+    }
+    img{
+        width: 100%;
+        float: none;
+    
+    
+        
+    }
+   .first-photo{
+    display: block;
+    width: 100%;
+   }
+   .second-photo{
+    display: block;
+    width:100%;
+   }
+   .third-photo{
+    display: block;
+    width: 100%;
+   }
+   .contact,footer{
+    justify-content: center;
+   }
+   
+}
+
